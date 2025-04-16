@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIMA - Retro Refresh, Reimagined</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+    <!-- Animated background particles -->
+    <div class="particles"></div>
+
+    <!-- Sticky header with blur effect -->
+    <header class="sticky-header">
+        <img src="images/ZIMA-TM-LOGO.jpg" alt="Zima Logo" class="logo">
+        <nav class="nav-links">
+            <a href="index.html" class="active"><span>Home</span></a>
+            <a href="mixology.html"><span>Mixology</span></a>
+            <a href="contact.html"><span>Contact</span></a>
+        </nav>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </header>
+
+    <!-- Hero section with parallax effect -->
+    <section class="hero">
+        <div class="parallax-container">
+            <!-- Animated gradient background -->
+            <div class="gradient-overlay"></div>
+            
+            <!-- 3D Rotating Can Carousel -->
+            <div class="can-carousel">
+                <div class="can-wrapper">
+                    <img src="images/can_teal.png" class="active" alt="Teal Zima">
+                    <img src="images/can_pink.png" alt="Pink Zima" class="Pink">
+                </div>
+                <div class="carousel-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <!-- Animated text -->
+            <div class="hero-content">
+                <h1 class="animate-text">Retro Refresh, Reimagined</h1>
+                <p class="animate-subtext">A modern twist on the 90s classic</p>
+                <button class="cta-button hover-effect">
+                    <span>Explore Flavors</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts/carousel.js"></script>
+    <script src="scripts/particles.js"></script>
+    <script src="scripts/animations.js"></script>
+
+    <footer>
+        <div class="footer-info">
+          <p><strong>Contact Us</strong></p>
+          <p>1161 Hamilton Road East, London, ON, N5W 1B1</p>
+          <p>(519) 601-5901</p>
+        </div>
+    
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Shipping & Returns</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQs</a>
+        </div>
+      </footer>
+    
+</body>
+</html>
